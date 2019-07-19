@@ -5,16 +5,16 @@ body{
 
 h1 {
     text-align: center;
-    color: rgb(253, 236, 181);
+    color: rgb(239, 226, 186);
     background-color: rgb(252, 68, 69);
     padding: 15px;
-    border: 5px solid rgb(253, 236, 181);
+    border: 5px solid rgb(239, 226, 186);
     margin: 30px;
 
 }
 
 h2{
-    color: rgb(253, 236, 181); 
+    color: rgb(239, 226, 186); 
 }
 
 p{
@@ -22,7 +22,7 @@ p{
 }
 
 #link {
-    color: rgb(253, 236, 181);
+    color: rgb(239, 226, 186);
 }
 section ol {
     color: turquoise;
