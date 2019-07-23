@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>H2 Computing Sign Up Form</title>
+    <link rel="stylesheet" href="exercise_02_form.css">
 </head>
 <body>
     <form action = "exercise_02_response.html" method = "GET">
@@ -26,7 +27,7 @@
                     <td><input name="class" id="class" type="text" /></td>
                     <td>Gender:</td>
                     <td>
-                        <select>
+                        <select id="gender">
                             <option>Male</option>
                             <option>Female</option>
                             <option>Other</option>
@@ -36,7 +37,7 @@
                 <tr>
                     <td>Date of Birth</td>
                     <td>
-                        <input type="date" name="bod" value="2000-01-01" />
+                        <input type="date" id="dateofbirth" name="bod" value="2000-01-01" />
                     </td>
                 </tr>
             </table>
@@ -52,7 +53,7 @@
             <input name="subcomb" id="other" type="text" />
             <br />
             <br />
-            <input type="submit" />
+            <input type="submit" id="submit" />
         </p>
     </form>    
 </body>
